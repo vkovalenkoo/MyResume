@@ -6,19 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My resume</title>
-    <link rel="stylesheet" href="css/style.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
     <!---Main container-->
-    <div>
+    <div class="main-container">
         <!---Main content section-->
-        <div>
+        <div class="main-content-section">
             <!---About me section-->
-        <div>
+        <div class="about-me-section">
 
-            <h3>Back-End developer</h3>
+            <h2 class="about-me-profession">Back-End developer</h2>
             <h1>Valentin Kovalenko</h1>
 
             <p>Welcome! If you are visiting this page it means that you want to know something about me. I will gladly tell you everything about myself a little below</p>
@@ -26,7 +29,7 @@
         </div>
 
         <!---My Projects section-->
-        <div>
+        <div class="my-projects-section">
             <h3>Projects</h3>
             <ol>
                 <li>
@@ -48,7 +51,7 @@
         </div>
 
         <!---Work  experience section-->
-        <div>
+        <div class="my-work-experience-section">
             <h3>Work experience</h3>
             
             <!--- Company 1 --->
@@ -97,7 +100,7 @@
         </div>
 
         <!---Education section-->
-        <div>
+        <div class="my-education-section">
             <h3>Education</h3>
             
             <!---  Universities --->
@@ -114,51 +117,51 @@
 
     </div>
     <!--- Sidebar sections --->
-        <aside>
-            <img src="img/CV.jpg" alt="my photo">
+        <aside class="sidebar-section">
+            <img src="img/CV.jpg", width=370 height=354 alt="my photo">
 
             <!---contacts section--->
-            <div>
-                <h3>Contacts</h3>
+            <div class="contacts-section">
+                <h3 class="sidebar-title">Contacts</h3>
                 <div>
-                    <span>C:</span>
-                    <a href="tel:+380996151134">+38 (099) 615-11-34</a>
+                    <span class="contacts-section-type">C:</span>
+                    <a class="contacts-section-link" href="tel:+380996151134">+38 (099) 615-11-34</a>
                 </div>
 
                 <div>
-                    <span>E:</span>
-                    <a href="mailto:valikko2004@gmail.com">valikko2004@gmail.com</a>
+                    <span class="contacts-section-type">E:</span>
+                    <a class="contacts-section-link" href=mailto:valikko2004@gmail.com>valikko2004@gmail.com</a>
                 </div>
             </div>
 
             <!--- Tech skill sections --->
-            <div>
-                <h3>Tech Skills</h3>
-                <ul>
-                    <li><b>Python</b></li>
-                    <li>Scrapy</li>
-                    <li>Flask</li>
-                    <li>FastAPI</li>
-                    <li>TelegramBotAPI</li>
-                    <li>sqlite</li>
-                    <li>Google API</li>
-                    <li><b>JavaCore</b></li>
-                    <li>HTML/CSS</li>
-                    <li><b>JavaScript</b></li>
-                    <li>MySQL</li>
-                    <li>PostgreSQL</li>
+            <div class="tech-skills-section">
+                <h3 class="sidebar-title">Tech Skills</h3>
+                <ul class="tech-skills-list">
+                    <li class="tech-skills-item"><span class="tech-skills-text">Python</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Scrapy</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Flask</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text"></span>FastAPI</li>
+                    <li class="tech-skills-item"><span class="tech-skills-text"></span>TelegramBotAPI</li>
+                    <li class="tech-skills-item"><span class="tech-skills-text"></span>sqlite</li>
+                    <li class="tech-skills-item"><span class="tech-skills-text"></span>Google API</li>
+                    <li class="tech-skills-item"><span class="tech-skills-text"></span>JavaCore</li>
+                    <li class="tech-skills-item"><span class="tech-skills-text"></span>HTML/CSS</li>
+                    <li class="tech-skills-item"><span class="tech-skills-text"></span>JavaScript</li>
+                    <li class="tech-skills-item"><span class="tech-skills-text"></span>MySQL</li>
+                    <li class="tech-skills-item"><span class="tech-skills-text"></span>PostgreSQL</li>
                 </ul>
             </div>
 
             <!--- Soft skill sections --->
-            <div>
-                <h3>Soft Skills</h3>
-                <ul>
-                    <li>Easily trained</li>
-                    <li>Structural thinking</li>
-                    <li>Visual-figurative thinking</li>
-                    <li>Teamwork</li>
-                    <li>Ability to adapt</li>
+            <div class="soft-skills-section">
+                <h3 class="sidebar-title">Soft Skills</h3>
+                <ul class="soft-skills-list">
+                    <li class="soft-skills-item"><span class="soft-skills-text"></span>Easily trained</li>
+                    <li class="soft-skills-item"><span class="soft-skills-text"></span>Structural thinking</li>
+                    <li class="soft-skills-item"><span class="soft-skills-text"></span>Visual-figurative thinking</li>
+                    <li class="soft-skills-item"><span class="soft-skills-text"></span>Teamwork</li>
+                    <li class="soft-skills-item"><span class="soft-skills-text"></span>Ability to adapt</li>
                 </ul>
             </div>
         </aside>
