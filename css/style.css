@@ -10,6 +10,7 @@ body {
   background-color: #fff;
   margin: 40px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+
 }
 
 /* Main content section*/
@@ -172,6 +173,22 @@ body {
   font-size: 12px;
   line-height: 15px;
   color: #a8a8a8;
+}
+
+.ball-game{
+  display: block; /* Рисунок как блочный элемент */
+  width: 300px; /* Ширина рисунка в пикселах */
+  height: 300px; /* Высота рисунка */
+  background: url("ball.png");
+  position: relative;
+  top: 100px;
+  left: 350px;
+}
+
+.ball-game:hover{
+  background: url("ball.gif");
+  width: 300px; /* Ширина рисунка в пикселах */
+  height: 300px; /* Высота рисунка */
 }
 
 /* Sidebar section */
