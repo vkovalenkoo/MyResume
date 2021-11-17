@@ -131,6 +131,7 @@ body {
   margin-bottom: 10px;
 }
 
+.my-certificate-diviber,
 .my-education-diviber,
 .my-work-experience-diviber {
   color: #000;
@@ -149,7 +150,7 @@ body {
 }
 
 /* My education */
-
+.certificates-university,
 .my-education-university {
   font-style: normal;
   font-weight: bold;
@@ -159,6 +160,7 @@ body {
   color: #fb6d3a;
 }
 
+.certificate-speciality,
 .my-education-speciality {
   font-style: normal;
   font-weight: bold;
@@ -166,6 +168,7 @@ body {
   line-height: 17px;
   margin-bottom: 10px;
 }
+
 
 .my-education-period {
   font-style: normal;
@@ -223,7 +226,7 @@ body {
 }
 
 .contacts-section-link {
-  color: #565e6a;
+  color: #889ab5;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
