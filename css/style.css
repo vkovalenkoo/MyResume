@@ -33,7 +33,7 @@ body {
   margin: 0 0 40px 0;
 }
 
-.about_me_profession {
+.about-me-profession {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -201,7 +201,7 @@ body {
   padding: 40px 0;
   background-color: #1e2939;
 }
-
+.languages-section,
 .contacts-section,
 .tech-skills-section,
 .soft-skills-section {
@@ -222,7 +222,7 @@ body {
   line-height: 24px;
   font-weight: bold;
   color: white;
-  margin-right: 5px;
+  margin-right: 0;
 }
 
 .contacts-section-link {
@@ -232,16 +232,19 @@ body {
   font-size: 14px;
   line-height: 24px;
 }
+
+.languages-list,
 .soft-skills-list,
 .tech-skills-list {
   padding: 0 0 0 17px;
 }
-
+.language-item,
 .soft-skills-item,
 .tech-skills-item {
   color: #fb6d3a;
 }
 
+.language-text,
 .soft-skills-text,
 .tech-skills-text {
   font-style: normal;
