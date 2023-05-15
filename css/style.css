@@ -9,7 +9,7 @@ body {
   width: 1200px;
   background-color: #fff;
   margin: 40px auto;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.3);
 
 }
 
@@ -189,6 +189,7 @@ body {
   width: 370px;
   padding: 40px 0;
   background-color: #1e2939;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.5);
 }
 .languages-section,
 .contacts-section,
