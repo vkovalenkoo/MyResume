@@ -39,7 +39,7 @@ body {
   font-size: 14px;
   line-height: 17px;
   margin: 0 0 20px 0;
-  color: #000;
+  color: #fb6d3a;
 }
 
 .about-me-name {
@@ -81,6 +81,10 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
+}
+
+.my-projects-text:hover{
+  color: #fb6d3a;
 }
 
 .my-projects-text {
@@ -178,25 +182,10 @@ body {
   color: #a8a8a8;
 }
 
-.ball-game{
-  display: block; /* Рисунок как блочный элемент */
-  width: 300px; /* Ширина рисунка в пикселах */
-  height: 300px; /* Высота рисунка */
-  background: url("ball.png");
-  position: relative;
-  top: 100px;
-  left: 350px;
-}
-
-.ball-game:hover{
-  background: url("ball.gif");
-  width: 300px; /* Ширина рисунка в пикселах */
-  height: 300px; /* Высота рисунка */
-}
-
 /* Sidebar section */
 
 .sidebar-section {
+  min-width: 370px;
   width: 370px;
   padding: 40px 0;
   background-color: #1e2939;
@@ -222,7 +211,11 @@ body {
   line-height: 24px;
   font-weight: bold;
   color: white;
-  margin-right: 0;
+  margin-right: 5px;
+}
+.container-avatar img{
+  max-width:100%;
+  height:auto;
 }
 
 .contacts-section-link {
@@ -234,14 +227,36 @@ body {
 }
 
 .languages-list,
-.soft-skills-list,
-.tech-skills-list {
+.soft-skills-list {
   padding: 0 0 0 17px;
 }
+.tech-skills-list-section {
+  list-style: none;
+  padding: 0;
+}
+.tech-skills-list {
+  list-style-type: "-";
+  padding: 0 0 0 17px;
+}
+
 .language-item,
 .soft-skills-item,
 .tech-skills-item {
   color: #fb6d3a;
+}
+
+.arrow {
+display: inline-block;
+transform: rotate(45deg);
+width: 5px;
+height: 5px;
+border-right: 2px solid #fb6d3a;
+border-top: 2px solid #fb6d3a;
+transition: transform 0.2s ease;
+}
+
+.arrow.down {
+transform: rotate(135deg);
 }
 
 .language-text,
@@ -252,4 +267,5 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: white;
+  margin-left: 5px
 }
